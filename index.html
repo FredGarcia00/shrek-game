@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Shrek's Swamp Defender</title>
     <style>
         body {
@@ -13,9 +13,12 @@
             height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
+            touch-action: none;
         }
         #gameCanvas {
             border: 2px solid #2e4329;
+            max-width: 100%;
+            max-height: 100vh;
         }
     </style>
 </head>
